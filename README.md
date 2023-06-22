@@ -4,7 +4,7 @@ This is a collection of surveys that I am using to try to drill down on the idea
 
 ## Surveys
 
-- [State Management](https://forms.gle/QrZThXApMRxfZiNL8)
+- [State Management](https://forms.gle/QrZThXApMRxfZiNL8) | [results](https://github.com/lukepighetti/nps_flutter/blob/main/results/state-management.md)
 - [Backend](https://forms.gle/ED7oZQJWgbS1kCEH7)
 - [Routing](https://forms.gle/bnZWA1GMX6WZkgJu8)
 - [Localization](https://forms.gle/pGNtC6tY8qfwaDvg6)
