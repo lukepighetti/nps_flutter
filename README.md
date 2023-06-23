@@ -4,14 +4,14 @@ This is a collection of surveys that I am using to try to drill down on the idea
 
 ## Surveys
 
-|                  | survey                                         | results                                | Twitter space                                           |
-| ---------------- | ---------------------------------------------- | -------------------------------------- | ------------------------------------------------------- |
-| State Management | [survey](https://forms.gle/QrZThXApMRxfZiNL8)  | [results](results/state-management.md) | [recording](https://twitter.com/i/spaces/1OdKrzWqjvwKX) |
-| Backend          | [survey](https://forms.gle/ED7oZQJWgbS1kCEH7)  | [results](results/backend.md)          |                                                         |
-| Routing          | [survey](https://forms.gle/bnZWA1GMX6WZkgJu8)  |                                        |                                                         |
-| Localization     | [survey](https://forms.gle/pGNtC6tY8qfwaDvg6)  |                                        |                                                         |
-| Local database   | [survey](https://forms.gle/xVzxFtBiCLjDrR6t5)  |                                        |                                                         |
-| Analytics        | [survey](https://forms.gle/xmHkb99qrpSY3Yxg8)  |                                        |                                                         |
+|                  | survey                                         | results                                | Twitter space                                           | Notes                              |
+| ---------------- | ---------------------------------------------- | -------------------------------------- | ------------------------------------------------------- | ---------------------------------- |
+| State Management | [survey](https://forms.gle/QrZThXApMRxfZiNL8)  | [results](results/state-management.md) | [recording](https://twitter.com/i/spaces/1OdKrzWqjvwKX) | [notes](notes/state-management.md) |
+| Backend          | [survey](https://forms.gle/ED7oZQJWgbS1kCEH7)  | [results](results/backend.md)          |                                                         |                                    |
+| Routing          | [survey](https://forms.gle/bnZWA1GMX6WZkgJu8)  |                                        |                                                         |                                    |
+| Localization     | [survey](https://forms.gle/pGNtC6tY8qfwaDvg6)  |                                        |                                                         |                                    |
+| Local database   | [survey](https://forms.gle/xVzxFtBiCLjDrR6t5)  |                                        |                                                         |                                    |
+| Analytics        | [survey](https://forms.gle/xmHkb99qrpSY3Yxg8)  |                                        |                                                         |                                    |
 
 
 *Tweet at [@luke_pighetti](https://twitter.com/luke_pighetti) if you have suggestions*
