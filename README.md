@@ -35,6 +35,7 @@ Idea seeds for future surveys
 - Code velocity (deploy scripts, // TODO product development, "Jira" google sheets, BFF stacks, high ownership)
 - Deeplinking
 - Dependency injection
+- Dev tools screen [example](https://twitter.com/SebastianRoehl/status/1671885451324723201)
 - Dialogs / In-app Notifications
 - Feature flags
 - Feedback product loop (customer driven product)
