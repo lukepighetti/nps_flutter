@@ -4,12 +4,15 @@ This is a collection of surveys that I am using to try to drill down on the idea
 
 ## Surveys
 
-- [State Management](https://forms.gle/QrZThXApMRxfZiNL8) | [results](results/state-management.md)
-- [Backend](https://forms.gle/ED7oZQJWgbS1kCEH7) | [results](results/backend.md)
-- [Routing](https://forms.gle/bnZWA1GMX6WZkgJu8)
-- [Localization](https://forms.gle/pGNtC6tY8qfwaDvg6)
-- [Local database](https://forms.gle/K3m9JNRA4vvxPZpF6)
-- [Analytics](https://forms.gle/xmHkb99qrpSY3Yxg8)
+|                  | survey                                         | results                                |
+| ---------------- | ---------------------------------------------- | -------------------------------------- |
+| State Management | [survey](https://forms.gle/QrZThXApMRxfZiNL8)  | [results](results/state-management.md) |
+| Backend          | [survey](https://forms.gle/ED7oZQJWgbS1kCEH7)  | [results](results/backend.md)          |
+| Routing          | [survey](https://forms.gle/bnZWA1GMX6WZkgJu8)  |                                        |
+| Localization     | [survey](https://forms.gle/pGNtC6tY8qfwaDvg6)  |                                        |
+| Local database   | [survey](https://forms.gle/K3m9JNRA4vvxPZpF66) |                                        |
+| Analytics        | [survey](https://forms.gle/xmHkb99qrpSY3Yxg8)  |                                        |
+
 
 *Tweet at [@luke_pighetti](https://twitter.com/luke_pighetti) if you have suggestions*
 
