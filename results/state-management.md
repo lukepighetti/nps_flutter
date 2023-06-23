@@ -1,16 +1,18 @@
 # State management
 
-*Report generated June 22, 2023*
+*Report generated June 23, 2023*
 
 
 | type        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10   |   NPS |
 |:------------|:----|:----|:----|:----|:----|:----|:----|:----|:----|:-----|------:|
-| async_redux |     |     |     |     |     |     |     |     | 1   |      |   100 |
-| bloc        |     |     |     |     | 1   |     | 2   | 3   | 4   | 9    |    63 |
+| async_redux |     |     |     |     |     |     |     |     | 2   |      |   100 |
+| bloc        |     |     |     |     | 1   |     | 2   | 3   | 4   | 12   |    68 |
 | get_it      |     |     |     |     |     |     |     | 1   |     |      |     0 |
-| getx        | 1   |     |     |     |     |     |     | 1   |     |      |   -50 |
-| provider    |     |     |     |     |     | 1   |     | 3   | 1   | 3    |    37 |
-| riverpod    |     |     |     |     |     |     | 1   | 5   | 3   | 18   |    77 |
+| getx        | 1   |     |     |     |     |     |     | 1   |     | 1    |     0 |
+| mobx        |     |     |     |     |     |     |     |     |     | 1    |   100 |
+| provider    |     |     |     |     |     | 1   |     | 4   | 1   | 4    |    40 |
+| redux       |     |     |     |     |     |     |     | 1   |     |      |     0 |
+| riverpod    |     |     |     |     |     |     | 1   | 7   | 6   | 22   |    77 |
 | stacked     |     |     |     |     |     |     | 1   |     | 1   | 1    |    66 |
 
 
@@ -23,6 +25,7 @@
 ### What do you like about it?
 
 - Great documentation, not using streams, comprehensible (it is easy to comprehend how a specific app state forms)  
+- Redux itself is very simple to understand and thus perfect for smaller and medium teams  
 
 
 ## bloc
@@ -44,6 +47,7 @@
 - Simplify the builders for wrapping widgets else access the data using context and render like in react-redux where you don't need to wrap your UI components with something else   
 - To many boilerplate   
 - Maybe the plugins for the IDE's that generate code for the package. It uses a different style than I do.  
+- Cubit is great - could also just be a state notifier, but the thought process with tree based injection is much easier to reason about.  
 
 ### What do you like about it?
 
@@ -65,6 +69,8 @@
 - It the best  
 - I like that up till now it has always been able to solve every case I've thrown add it.  
   When trying to create my own state management solutions I always ended up implementing bloc-like features which made my solution look very similar.  
+- I like to refer to Cubit as „WidgetModel“ as a reference to Viewmodels - this works pretty well and is easy to understand and follow as a pattern   
+- Ez testing  
 
 
 ## get_it
@@ -82,11 +88,24 @@
 
 - make it smaller , it does too much , routing, state management, localization , etc   
 - no need to improve, just don't use it  
+- better docs and name ;)  
 
 ### What do you like about it?
 
 - state management, dependency injection   
 - getx was fast for small app development  
+- Easy to understand, less typing, not verbose, makes sense even at fast glance  
+
+
+## mobx
+
+### What could be improved?
+
+- Tracking async action oob, no generation (meta programmming will solve this soon)  
+
+### What do you like about it?
+
+- Easy to build full reactive apps with a lot of observables / computed ones  
 
 
 ## provider
@@ -97,6 +116,7 @@
 - JS Signals approach in Flutter. Package ASP is promissing  
 - It’s old. Riverpod is its next iteration.   
 - Improve ChangeNotifier  
+- no complaints  
 
 ### What do you like about it?
 
@@ -105,6 +125,19 @@
 - It’s robust.   
 - notifyListener  
 - Easy to use...   
+- Easy to grasp,got lot of resources online and really efficient for beginners.  
+- simple, not fancy, easy to use, works for all my cases, if it work doesn't then something that shouldn't be done is probably being done.  
+
+
+## redux
+
+### What could be improved?
+
+- Asynchronous actions, without using additional packages  
+
+### What do you like about it?
+
+- Single store architecture   
 
 
 ## riverpod
@@ -140,6 +173,18 @@
     
   In that manner I think it would be great if a developer could easily create their own providers on top of riverpod. But that api is currently very restricted and complex.  
 - Docs  
+- Removing code generation for the new syntax, but will have to wait for static meta programming. It's not too big a deal if you run build_runner watch  
+    
+  Hidden dependencies can also be a problem with riverpod  
+- Less syntax changes. Documentation but that’s already being worked on  
+- Documentation  
+- having some sort of thinking the "riverpod" way in the docs and project architecture recommendations  
+- documentation, chaining async actions stuff together without 1 frame loading states   
+- The documentation can use a bit more advanced providers in explaining some stuff like pagination.  
+- A bit complex to apprehend the first times.  
+- Documentation and handling mutations  
+- More transparency for riverpod - there is too much magic going on.  
+  Riverpod feels like a m*m matrix which is very hard to track.  
 
 ### What do you like about it?
 
@@ -166,6 +211,14 @@
 - Simplicity  
 - Its both good for simple small stuff (ie counter app) and complex large stuff. It has next to zero boilerplate code and a great reactivity pattern.  
 - Flexible, easy to read and use  
+- Simple to use and understand, just write a function and annotate it and it's ready to be used. It is also easy to depend on other providers in a provider.  
+- It simplifies logic to a great extent. It helps think about individual pieces of state as opposed to the state per page  
+- Elegant, minimal, feature rich  
+- Simplicity, not hard to use once you understand the concept and widely used/support  
+- easy to reason about global state, easy to inspect, no "walls" that prevent state from being accessible when the requirements change,   
+- What I like most about riverpod is it's easy straightforward syntax, the learning curve and the community support. You can easily get stuck if you need help. Also, since there's plenty of projects using it sometimes, I get to check many different implementations of a particular feature and based on that decide on a way to implement mine.  
+- The type safety.  
+- It's more a data fetching library than a state management library, state management only highlights one of its features.  
 
 
 ## stacked
