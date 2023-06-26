@@ -1,6 +1,6 @@
 # Backend
 
-*Report generated June 23, 2023*
+*Report generated June 26, 2023*
 
 
 | type               | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10   |   NPS |
@@ -24,6 +24,32 @@
 | sanic              |     |     |     |     |     |     |     | 1   |     |      |     0 |
 | shelf              |     |     |     |     |     |     | 1   |     |     |      |     0 |
 | supabase           |     |     |     |     |     |     |     | 1   |     | 5    |    83 |
+
+
+### NPS Details
+
+
+| type               |   total |   detractors |   neutral |   promoters |   NPS |
+|:-------------------|--------:|-------------:|----------:|------------:|------:|
+| appwrite           |       1 |            0 |         0 |           1 |   100 |
+| aws                |       1 |            0 |         0 |           1 |   100 |
+| cloudflare         |       1 |            0 |         0 |           1 |   100 |
+| dart_frog          |       2 |            0 |         1 |           1 |    50 |
+| django             |       2 |            0 |         2 |           0 |     0 |
+| echo               |       1 |            0 |         0 |           1 |   100 |
+| firebase           |      16 |            2 |         7 |           7 |    31 |
+| firebase + laravel |       1 |            0 |         1 |           0 |     0 |
+| gin                |       1 |            0 |         1 |           0 |     0 |
+| go                 |       2 |            0 |         1 |           1 |    50 |
+| headless-cms       |       1 |            0 |         0 |           1 |   100 |
+| laravel            |       1 |            0 |         0 |           1 |   100 |
+| NestJS             |       3 |            0 |         0 |           3 |   100 |
+| other              |       2 |            0 |         0 |           2 |   100 |
+| phoenix            |       1 |            0 |         0 |           1 |   100 |
+| pocketbase         |       1 |            0 |         0 |           1 |   100 |
+| sanic              |       1 |            0 |         1 |           0 |     0 |
+| shelf              |       1 |            0 |         1 |           0 |     0 |
+| supabase           |       6 |            0 |         1 |           5 |    83 |
 
 
 ## appwrite
