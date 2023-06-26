@@ -14,6 +14,17 @@
 | Navigator 2.0 |     |     |     |     |     | 1   |     |     |     |      |  -100 |
 
 
+| type          |   total |   detractors |   neutral |   promoters |   NPS |
+|:--------------|--------:|-------------:|----------:|------------:|------:|
+| auto_route    |       5 |            0 |         2 |           3 |    60 |
+| beamer        |       1 |            0 |         1 |           0 |     0 |
+| Fluro         |       1 |            1 |         0 |           0 |  -100 |
+| getx          |       1 |            0 |         0 |           1 |   100 |
+| go_router     |      18 |            2 |         7 |           9 |    38 |
+| Navigator 1.0 |       4 |            1 |         0 |           3 |    50 |
+| Navigator 2.0 |       1 |            1 |         0 |           0 |  -100 |
+
+
 ## auto_route
 
 ### What could be improved?
