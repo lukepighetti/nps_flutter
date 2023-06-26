@@ -14,6 +14,9 @@
 | Navigator 2.0 |     |     |     |     |     | 1   |     |     |     |      |  -100 |
 
 
+### NPS Details
+
+
 | type          |   total |   detractors |   neutral |   promoters |   NPS |
 |:--------------|--------:|-------------:|----------:|------------:|------:|
 | auto_route    |       5 |            0 |         2 |           3 |    60 |
