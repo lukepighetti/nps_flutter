@@ -1,6 +1,6 @@
 # State management
 
-*Report generated June 23, 2023*
+*Report generated June 26, 2023*
 
 
 | type        | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10   |   NPS |
@@ -14,6 +14,22 @@
 | redux       |     |     |     |     |     |     |     | 1   |     |      |     0 |
 | riverpod    |     |     |     |     |     |     | 1   | 7   | 6   | 22   |    77 |
 | stacked     |     |     |     |     |     |     | 1   |     | 1   | 1    |    66 |
+
+
+### NPS Details
+
+
+| type        |   total |   detractors |   neutral |   promoters |   NPS |
+|:------------|--------:|-------------:|----------:|------------:|------:|
+| async_redux |       2 |            0 |         0 |           2 |   100 |
+| bloc        |      22 |            1 |         5 |          16 |    68 |
+| get_it      |       1 |            0 |         1 |           0 |     0 |
+| getx        |       3 |            1 |         1 |           1 |     0 |
+| mobx        |       1 |            0 |         0 |           1 |   100 |
+| provider    |      10 |            1 |         4 |           5 |    40 |
+| redux       |       1 |            0 |         1 |           0 |     0 |
+| riverpod    |      36 |            0 |         8 |          28 |    77 |
+| stacked     |       3 |            0 |         1 |           2 |    66 |
 
 
 ## async_redux
@@ -235,4 +251,4 @@
   cli  
   no boilerplate   
 - MVVM architecture, out of the boss services like snack bar, navigation, bottom sheet etc, dependency injection etc  
-- The ease of doing things as it's a syntactic sugar on provider.  
+- The ease of doing things as it's a syntactic sugar on provider.
